@@ -598,11 +598,11 @@ img {
 }
 
 .input-hero:focus+.svg-hero {
-    fill: #4d5ae5;
+    fill: #4D5AE5;
 }
 
 .input-hero:focus {
-    border-color: #4d5ae5;
+    border-color: #4D5AE5;
 }
 
 .form-comment {
@@ -627,7 +627,7 @@ img {
 }
 
 .textarea:focus {
-    border-color: #4d5ae5;
+    border-color: #4D5AE5;
 }
 
 .label-input {
@@ -731,9 +731,9 @@ img {
 }
 
 .input-checkbox:checked+.label-checkbox>.span-checkbox {
-    background-color: var(--pressed-state-ocean);
+    background-color: #404bbf;
     border: none;
-    fill: var(--light-cloud);
+    fill: #F4F4FD;
 }
 
 .form-link {
@@ -762,5 +762,6 @@ img {
 
 .form-button:hover,
 .form-button:focus {
-    background-color: var(--pressed-state-ocean);
+    background-color: #404bbf;
+    border: none;
 }
